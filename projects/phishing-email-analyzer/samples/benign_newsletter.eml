@@ -1,0 +1,31 @@
+From: "TechWeekly Newsletter" <newsletter@techweekly.example>
+To: subscriber@example.com
+Subject: Your TechWeekly digest for this week
+Date: Mon, 15 Sep 2026 09:00:00 +0000
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=techweekly.example; dkim=pass header.d=techweekly.example; dmarc=pass
+Message-ID: <20260915090000.1@techweekly.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here's this week's roundup of what happened in tech. Read the full
+article on our site: https://techweekly.example/digest/2026-09-15
+
+Thanks for subscribing,
+The TechWeekly Team
+
+--BOUNDARY1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi there,</p>
+<p>Here's this week's roundup of what happened in tech.</p>
+<p><a href="https://techweekly.example/digest/2026-09-15">Read the full article</a></p>
+<p>Thanks for subscribing,<br>The TechWeekly Team</p>
+</body></html>
+
+--BOUNDARY1--
